@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Source Code Pro;
+  color: #666666;
+}
+
+body {
+  width: 600px;
+  margin: 15px auto;
+}
+
+address {
+  font-family: Roboto Condensed;
+  color: #999999;
+  font-size: 0.8rem;
+  font-style: normal;
+  margin: 12px 2px;
+}
+
+address a {
+  font-family: Roboto Condensed;
+  text-decoration: none;
+  color: #e91d63;
+}
+
+h1, h2 {
+  font-family: Oswald;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #424242;
+  position: relative;
+  margin-bottom: 3.5rem;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  left: 0.5%;
+  bottom: -10px;
+  width: 99%;
+  height: 0.3rem;
+  background-color: #424242;
+}
+
+h2 {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  color: #424242;
+}
+
+h3 {
+  font-family: Source Code Pro;
+  font-size: 0.9rem;
+}
+
+p, ul {
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+p {
+  line-height: 200%;
+}
+
+ul {
+  margin-left: 3.5rem;
+}
+
+li {
+  margin: 0;
+}
+
+span.red-bold {
+  font-weight: bold;
+  color: #e91d63;
+}
+
+span.title {
+  font-style: italic;
+  font-weight: 100;
+}
+
+span.date {
+  font-size: 0.8rem;
+}
